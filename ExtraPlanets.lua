@@ -30,7 +30,7 @@ if (SMODS.Mods["Bunco"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_l
                 "{C:blue}X#3#{} chips",
             }
         },
-        config = { extra = {hand = "bunc_Spectrum", xmult = 1.1, xchips = 1.5} },
+        config = { extra = {hand = "bunc_Spectrum", xmult = 1.1, xchips = 1.5, softlock = true} },
         pos = {
             x = 0,
             y = 0,
@@ -61,7 +61,7 @@ if (SMODS.Mods["Bunco"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_l
                 "{C:blue}X#3#{} chips",
             }
         },
-        config = { extra = {hand = "bunc_Straight Spectrum", xmult = 1.25, xchips = 1.75} },
+        config = { extra = {hand = "bunc_Straight Spectrum", xmult = 1.25, xchips = 1.75, softlock = true} },
         pos = {
             x = 1,
             y = 0,
@@ -92,7 +92,7 @@ if (SMODS.Mods["Bunco"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_l
                 "{C:blue}X#3#{} chips",
             }
         },
-        config = { extra = {hand = "bunc_Spectrum House", xmult = 1.2, xchips = 1.7} },
+        config = { extra = {hand = "bunc_Spectrum House", xmult = 1.2, xchips = 1.7, softlock = true} },
         pos = {
             x = 2,
             y = 0,
