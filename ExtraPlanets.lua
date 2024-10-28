@@ -173,6 +173,9 @@ if (SMODS.Mods["BJ"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_load
         loc_vars = function(self, info_queue, card)
             return { vars = {G.GAME.hands[card.ability.extra.hand].level, card.ability.extra.xmult, card.ability.extra.xchips,G.localization.misc.poker_hands[card.ability.extra.hand] } }
         end,
+        can_use = function(self, card, area, copier)
+            return true
+        end,
         in_pool = function(self)
             if G.GAME.hands["bj_natural"].played > 0 then
                 return true
@@ -202,6 +205,9 @@ if (SMODS.Mods["BJ"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_load
         pos = {x = 1, y = 0},
         loc_vars = function(self, info_queue, card)
             return { vars = {G.GAME.hands[card.ability.extra.hand].level, card.ability.extra.xmult, card.ability.extra.xchips,G.localization.misc.poker_hands[card.ability.extra.hand] } }
+        end,
+        can_use = function(self, card, area, copier)
+            return true
         end,
         in_pool = function(self)
             if G.GAME.hands["bj_jack_three"].played > 0 then
@@ -233,6 +239,9 @@ if (SMODS.Mods["BJ"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_load
         loc_vars = function(self, info_queue, card)
             return { vars = {G.GAME.hands[card.ability.extra.hand].level, card.ability.extra.xmult, card.ability.extra.xchips,G.localization.misc.poker_hands[card.ability.extra.hand] } }
         end,
+        can_use = function(self, card, area, copier)
+            return true
+        end,
         in_pool = function(self)
             if G.GAME.hands["bj_jack"].played > 0 then
                 return true
@@ -262,6 +271,9 @@ if (SMODS.Mods["BJ"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_load
         pos = {x = 0, y = 1},
         loc_vars = function(self, info_queue, card)
             return { vars = {G.GAME.hands[card.ability.extra.hand].level, card.ability.extra.xmult, card.ability.extra.xchips,G.localization.misc.poker_hands[card.ability.extra.hand] } }
+        end,
+        can_use = function(self, card, area, copier)
+            return true
         end,
         in_pool = function(self)
             if G.GAME.hands["bj_jack_flush"].played > 0 then
@@ -293,6 +305,9 @@ if (SMODS.Mods["BJ"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_load
         loc_vars = function(self, info_queue, card)
             return { vars = {G.GAME.hands[card.ability.extra.hand].level, card.ability.extra.xmult, card.ability.extra.xchips,G.localization.misc.poker_hands[card.ability.extra.hand] } }
         end,
+        can_use = function(self, card, area, copier)
+            return true
+        end,
         in_pool = function(self)
             if G.GAME.hands["bj_jack_house"].played > 0 then
                 return true
@@ -322,6 +337,9 @@ if (SMODS.Mods["BJ"] or {}).can_load and (SMODS.Mods["familiar"] or {}).can_load
         pos = {x = 2, y = 1},
         loc_vars = function(self, info_queue, card)
             return { vars = {G.GAME.hands[card.ability.extra.hand].level, card.ability.extra.xmult, card.ability.extra.xchips,G.localization.misc.poker_hands[card.ability.extra.hand] } }
+        end,
+        can_use = function(self, card, area, copier)
+            return true
         end,
         in_pool = function(self)
             if G.GAME.hands["bj_jack_flush_house"].played > 0 then
