@@ -5,7 +5,6 @@
 --- MOD_DESCRIPTION: Adds different variations to emodded planets
 --- BADGE_COLOUR: 225a9e
 --- PREFIX: ep
---- DEPENDENCIES: [familiar>=0.1.7, Bunco]
 
 ---------------------------------------------- 
 ------------MOD CODE ------------------------- 
